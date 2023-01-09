@@ -6,7 +6,7 @@ cluster-configs:
     values: [ monitoring, jenkins ]
   root-ingress:
     namespace: jenkins
-    serviceName: jenkins
+    serviceName: jenkinS
     servicePort: 8080
     appRoot: ""
     cert-issuer: "letsencrypt-prod"
